@@ -22,7 +22,7 @@ public class YahooSearch {
         System.setProperty("webdriver.gecko.driver", path + "/geckodriver");
         driver = new FirefoxDriver();
     }
-
+//Yahoooo SearchTest
     @Test
     public void test001() {
         navigatingtoMainPageYahoo();
